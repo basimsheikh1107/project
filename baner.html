@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo-sec {
+            position: relative; /* Set relative positioning for the overlay */
+            height: 40rem;
+            background-image: url(OIP.jfif);
+            background-repeat: no-repeat;
+            background-size: cover; /* Adjusted for full cover */
+        }
+
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background-color: rgba(255, 255, 255, 0.4); /* White with 60% opacity */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            height: 10%;
+        }
+
+        .logo {
+            color: #0a7734;
+            margin-left: 10%;
+            font-size: 2.75rem;
+            font-weight: bold;
+            margin-bottom: 1rem; /* Space between logo and navbar */
+        }
+
+        .navbar {
+            list-style: none;
+            margin-right: 10%;
+           
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: auto; /* Allow for dynamic height */
+        }
+
+        .navbar li {
+            margin: 0 1rem; /* Adjusted margins */
+        }
+
+        .navbar a {
+            text-decoration: none; /* Remove underline from links */
+            color: #000; /* Link color */
+        }
+
+        .header1 {
+            display: flex;
+            align-items: center;
+            justify-content: center; /* Center header content */
+            height: auto; /* Adjust height */
+        }
+        .navbar a:hover {
+        color: #0a7734; /* Color on hover */
+        }
+        .image-text{
+            display: flex;
+            flex-direction: column;
+            margin-left: 10%;
+            
+    
+            height: auto; /* Adjust height to fit the content */
+            color: #000; /* Text color */ /* Optio*/
+        }
+        .line1{
+            margin-top: 17%;
+            color: #0a7734;
+            font-size: 2rem;
+        }
+        .line2{
+            font-size: 4rem;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: #fff;
+        }
+        .line3{
+            color: #fff;
+        }
+        .read-more button {
+            background: transparent; /* Make the background transparent */
+            border: 2px solid #0a7734; /* Add border color */
+            color: #fff; 
+            padding: 10px 20px; /* Adjust padding */
+            font-size: 1.2rem; /* Font size */
+            cursor: pointer; /* Change cursor to pointer on hover */
+            margin-left: 10%;
+            margin-top: 5%;
+        }
+
+    </style>
+</head>
+<body>
+    <section class="logo-sec">
+        <div class="overlay">
+            <div class="logo">Ezuca</div>
+            <ol class="navbar">
+                <li><a href="">HOME</a></li>
+                <li><a href="">ABOUT</a></li>
+                <li><a href="">COURSES</a></li>
+                <li><a href="">BLOG</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ol>
+        </div>
+        <div class="image-text">
+            <div class="line1">Get started with online classes</div>
+            <div class="line2">BEST ONLINE</div>
+            <div class="line2">LEARNING SYSTEM</div>
+            <div class="line3">Ezuca is the only trusted and approved platform available in trhe market when finding valuable online courses.The aim of Ezuca is to provide value for money courses that assists professionals to upskill.</div>
+        </div>
+        <div class="read-more"><button>READ MORE</button></div>
+    </section>
+</body>
+</html>
