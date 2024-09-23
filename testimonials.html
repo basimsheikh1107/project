@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonial Section</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom styling for the prev/next buttons */
+        .carousel-control-prev-icon,
+        .carousel-control-next-icon {
+            background-color: #0a7734;
+            border-radius: 50%;
+            width: 40px;
+            height: 40px;
+        }
+        .carousel-control-prev,
+        .carousel-control-next {
+            width: 5%; /* To make sure the buttons don't take too much space */
+        }
+    </style>
+</head>
+<body>
+
+<!-- Testimonial Section with Carousel -->
+<section class="testimonial-section py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">What Our Clients Say</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <!-- Indicators/Dots -->
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"></button>
+            </div>
+
+            <!-- Testimonial Slides -->
+            <div class="carousel-inner text-center">
+                <!-- Testimonial 1 -->
+                <div class="carousel-item active">
+                    <img src="test1.jfif" alt="User Image 1" class="rounded-circle mb-3" style="width: 100px; margin:auto;">
+                    <blockquote class="blockquote">
+                        <p>"Exceptetur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                        <footer class="blockquote-footer">ROBERT STEPHENS <cite title="University in Oxford">University in Oxford</cite></footer>
+                    </blockquote>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="carousel-item">
+                    <img src="test2.jfif" alt="User Image 2" class="rounded-circle mb-3" style="width: 100px; margin:auto;">
+                    <blockquote class="blockquote">
+                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt."</p>
+                        <footer class="blockquote-footer">SARAH JOHNSON <cite title="Tech Enthusiast">Tech Enthusiast</cite></footer>
+                    </blockquote>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="carousel-item">
+                    <img src="test3.jfif.crdownload" alt="User Image 3" class="rounded-circle mb-3" style="width: 100px; margin:auto;">
+                    <blockquote class="blockquote">
+                        <p>"Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."</p>
+                        <footer class="blockquote-footer">JAMES SMITH <cite title="Freelancer">Freelancer</cite></footer>
+                    </blockquote>
+                </div>
+            </div>
+
+            <!-- Carousel Controls (Prev/Next with visible styling) -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
