@@ -497,3 +497,21 @@ h3 {
     box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Shadow effect on hover */
 }
 
+
+#company-logos{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100% ;
+    border-top: 1px solid;
+    height: 200px;
+}
+.images{
+    height: 4rem;
+    width: 10rem;
+}
+.smallpic{
+    height: 10rem;
+    width: 13rem;
+}
+
