@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .nav-sec {
+            background-color: rgba(255, 255, 255, 0.4); /* White with 60% opacity */
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            text-align: center;
+            height: 10%;
+        }
+
+        .head {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #0a7734;
+            margin-left: 10%;
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+
+        .nav-bar {
+            list-style: none;
+            margin-right: 10%;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            height: auto;
+        }
+
+        .nav-bar li {
+            margin: 0 1rem; 
+        }
+
+        .nav-bar a {
+            text-decoration: none; 
+            color: #000;
+        }
+
+        .nav-bar a:hover {
+            color: #0a7734; 
+        }
+
+        .all-courses {
+            max-width: 1200px;
+            margin: 50px auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .all-courses h2 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .courses {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .feat-courses {
+            background-color: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            width: 30%;
+        }
+
+        .feat-courses img {
+            width: 100%;
+            height: 17rem;
+        }
+
+        .course-details {
+            padding: 20px;
+            text-align: left;
+        }
+
+        .course-rating {
+            color: #ffcc00;
+            font-size: 1.2em;
+            margin-bottom: 10px;
+        }
+
+        .course-rating i {
+            margin-right: 5px;
+        }
+
+        .course-rating span {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .instructor {
+            font-size: 0.9em;
+            color: #999;
+            margin-bottom: 10px;
+        }
+
+        .price {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        .price .free {
+            color: green;
+        }
+
+        .price .current-price {
+            color: green;
+        }
+
+        .price .old-price {
+            text-decoration: line-through;
+            color: #999;
+            margin-left: 10px;
+        }
+
+        .view-all {
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1.1em;
+            margin-top: 20px;
+        }
+
+        .view-all:hover {
+            background-color: #218838;
+        }
+
+        .feat-courses:hover {
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Shadow effect on hover */
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div class="nav-sec">
+            <div class="head">FEATURED COURSES</div>
+            <ol class="nav-bar">
+                <li><a href="">ALL</a></li>
+                <li><a href="">BUSINESS</a></li>
+                <li><a href="">DESIGN</a></li>
+                <li><a href="">WEB DEVELOPMENT</a></li>
+                <li><a href="">CONTACT</a></li>
+            </ol>
+        </div>
+    </section>
+       
+    <section class="all-courses">
+        <div class="courses">
+            <!-- Course Card 1 -->
+            <div class="feat-courses">
+                <img src="featured course1.jfif" alt="Course 1" class="course-image">
+                <div class="course-details">
+                    <div class="course-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4 votes)</span>
+                    </div>
+                    <h3>The Complete Android Developer Course</h3>
+                    <p class="instructor">Ms. Lara Croft / July 21, 2018</p>
+                    <p class="price free">Free</p>
+                </div>
+            </div>
+
+            <!-- Course Card 2 -->
+            <div class="feat-courses">
+                <img src="featured course2.jfif" alt="Course 2" class="course-image">
+                <div class="course-details">
+                    <div class="course-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4 votes)</span>
+                    </div>
+                    <h3>Learn Photoshop, Web Design & Profitable</h3>
+                    <p class="instructor">Mr. John Wick / Aug 21, 2018</p>
+                    <p class="price">
+                        <span class="current-price">$32</span> 
+                        <span class="old-price">$59</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Course Card 3 -->
+            <div class="feat-courses">
+                <img src="feat img1.jfif" alt="Course 3" class="course-image">
+                <div class="course-details">
+                    <div class="course-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4 votes)</span>
+                    </div>
+                    <h3>Learn Photoshop, Web Design & Profitable</h3>
+                    <p class="instructor">Mr. John Wick / Aug 21, 2018</p>
+                    <p class="price">
+                        <span class="current-price">$32</span> 
+                        <span class="old-price">$59</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Course Card 4 -->
+            <div class="feat-courses">
+                <img src="feat img2.jfif" alt="Course 4" class="course-image">
+                <div class="course-details">
+                    <div class="course-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4 votes)</span>
+                    </div>
+                    <h3>Learn Photoshop, Web Design & Profitable</h3>
+                    <p class="instructor">Mr. John Wick / Aug 21, 2018</p>
+                    <p class="price">
+                        <span class="current-price">$32</span> 
+                        <span class="old-price">$59</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Course Card 5 -->
+            <div class="feat-courses">
+                <img src="featimg3.jfif" alt="Course 5" class="course-image">
+                <div class="course-details">
+                    <div class="course-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4 votes)</span>
+                    </div>
+                    <h3>Learn Photoshop, Web Design & Profitable</h3>
+                    <p class="instructor">Mr. John Wick / Aug 21, 2018</p>
+                    <p class="price">
+                        <span class="current-price">$32</span> 
+                        <span class="old-price">$59</span>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Course Card 6 -->
+            <div class="feat-courses">
+                <img src="featimg4.jfif" alt="Course 6" class="course-image">
+                <div class="course-details">
+                    <div class="course-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <span>(4 votes)</span>
+                    </div>
+                    <h3>Learn Photoshop, Web Design & Profitable</h3>
+                    <p class="instructor">Mr. John Wick / Aug 21, 2018</p>
+                    <p class="price">
+                        <span class="current-price">$32</span> 
+                        <span class="old-price">$59</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <button class="view-all">View All</button>
+    </section>
+</body>
+</html>
+

@@ -349,3 +349,151 @@ h3 {
 .carousel-control-next {
     width: 5%; /* To make sure the buttons don't take too much space */
 }
+
+
+
+
+.nav-sec {
+    background-color: rgba(255, 255, 255, 0.4); /* White with 60% opacity */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    height: 10%;
+}
+
+.head {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #0a7734;
+    margin-left: 10%;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.nav-bar {
+    list-style: none;
+    margin-right: 10%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: auto;
+}
+
+.nav-bar li {
+    margin: 0 1rem; 
+}
+
+.nav-bar a {
+    text-decoration: none; 
+    color: #000;
+}
+
+.nav-bar a:hover {
+    color: #0a7734; 
+}
+
+.all-courses {
+    max-width: 1200px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.all-courses h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.feat-courses {
+    background-color: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 30%;
+}
+
+.feat-courses img {
+    width: 100%;
+    height: 17rem;
+}
+
+.course-details {
+    padding: 20px;
+    text-align: left;
+}
+
+.course-rating {
+    color: #ffcc00;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.course-rating i {
+    margin-right: 5px;
+}
+
+.course-rating span {
+    font-size: 0.9em;
+    color: #666;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.instructor {
+    font-size: 0.9em;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.price {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.price .free {
+    color: green;
+}
+
+.price .current-price {
+    color: green;
+}
+
+.price .old-price {
+    text-decoration: line-through;
+    color: #999;
+    margin-left: 10px;
+}
+
+.view-all {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 20px;
+}
+
+.view-all:hover {
+    background-color: #218838;
+}
+
+.feat-courses:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Shadow effect on hover */
+}
+
