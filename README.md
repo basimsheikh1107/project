@@ -1,0 +1,1 @@
+the files with .jfif or.download extentions are images and i have broken the webpage into small parts and then compiled trhem into two files one of html and the other of css the nameds of files are index.html and index.css respectively
