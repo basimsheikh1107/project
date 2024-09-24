@@ -515,3 +515,57 @@ h3 {
     width: 13rem;
 }
 
+
+
+.footer{
+    display: flex;
+    background-color: #ffffff;
+    height: 25rem;
+    
+}
+
+.cont{
+    display: flex;
+    height: 20rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+    justify-content: space-between;
+   
+  
+    background-color: #ffffff;
+    width: 100%;}
+
+.foot-col{
+        width: 24%;
+    }
+.col{
+        margin-bottom: 1rem;
+
+    }
+.ls{
+    margin-top: 5rem;
+}
+.rr{
+    display: flex;
+    justify-content: center;
+}
+
+.a-t{
+    text-decoration: none;
+    color: #000;
+}
+.a-t:hover{
+    color: #0a7734;
+}
+.follow-us{
+    display: flex;
+    justify-content: space-between;
+}
+.fllw-img{
+    height:4rem;
+    width:4rem;
+}
+  
+
+
